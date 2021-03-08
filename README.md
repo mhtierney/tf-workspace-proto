@@ -19,13 +19,13 @@ This demo does not actually apply anything to any aws env.  It only outputs valu
 
 Follow these steps to see how it works.  The ouput values from running tf apply are determined by whichever workspace is selected.
 
-```terraform
->  terraform workspace new dev
->  terraform apply
->  terraform workspace new {mht|dev|qa|prod}
->  terraform apply
->  terraform workspace select {mht|dev|qa|prod}
->  terraform apply
->  terraform workspace list
->  terraform workspace show
+```
+>   terraform workspace new dev
+>   terraform apply
+>   terraform workspace new {mht|dev|qa|prod}
+>   terraform apply
+>   terraform workspace select {mht|dev|qa|prod}
+>   terraform apply
+>   terraform workspace list
+>   terraform workspace show
 ```
