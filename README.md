@@ -17,7 +17,7 @@ value = local.workspace["password"]
 
 This demo does not actually apply anything to any aws env.  It only outputs values based, so it is safe to run apply as it is not connected to any aws account. 
 
-Follow these steps to see how it works.  The ouput values from running tf apply are determined by whichever workspace is selected.
+Follow these steps to see how it works.  The output values from running tf apply are determined by whichever workspace is selected.
 
 ```
 >   terraform workspace new dev
